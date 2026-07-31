@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+venv/
+.venv/
+env/
+
+# Model weights and exports (link separately in README, don't commit)
+*.pt
+*.onnx
+*.engine
+runs/
+
+# Datasets (link to Kaggle/Roboflow source instead)
+dataset/
+datasets/
+*.cache
+
+# Logs and generated outputs
+*.csv
+violation_snapshots/
+output.mp4
+*.avi
+*.mkv
+
+# Calibration is fine to keep as a tracked example — uncomment below
+# if you'd rather exclude your specific calibration.json
+# calibration.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
