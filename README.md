@@ -3,7 +3,7 @@
 ## Files
 - `speed_tracker.py` — main pipeline: detection (YOLO) + tracking (ByteTrack) + speed estimation + violation logging
 - `calibrate.py` — interactive tool to set up homography points and lane polygons for a specific camera angle
-- `requirements.txt` — dependencies
+- `requirements.txt` — dependencies 
 
 ## Setup
 
