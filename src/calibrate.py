@@ -162,8 +162,8 @@ def main():
                 print("Need exactly 4 homography points before saving.")
                 continue
             try:
-                real_width = float(input("Enter real-world WIDTH of the rectangle in meters: "))
-                real_height = float(input("Enter real-world HEIGHT (length) of the rectangle in meters: "))
+                real_width = float(input("Enter real_world WIDTH of the rectangle in meters: "))
+                real_height = float(input("Enter real_world HEIGHT (length) of the rectangle in meters: "))
             except ValueError:
                 print("Invalid number, try again.")
                 continue
