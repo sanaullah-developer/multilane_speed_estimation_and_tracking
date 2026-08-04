@@ -64,7 +64,7 @@ Useful flags:
 - `--no-display` — headless mode, e.g. running on a server/Pi
 - `--video 0` — use a live webcam instead of a file
 
-## Accuracy tips specific to Pakistani traffic
+## Accuracy tips
 
 1. **Camera angle**: an elevated, angled-down view (like a pole-mounted CCTV)
    gives far better homography accuracy than a straight dashcam angle.
@@ -83,5 +83,4 @@ Useful flags:
 ## Next steps (stretch goals)
 - Add ANPR: crop plates from `violation_snapshots/`, run PaddleOCR/EasyOCR,
   fine-tune on local plate samples (Pakistani plates vary in font/format).
-- Wrap in a Streamlit/Flask dashboard for live per-lane speed monitoring.
 - Add a database (SQLite/Postgres) instead of CSV for the violation log.
